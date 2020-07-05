@@ -1,17 +1,21 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>OMFS</title>
-  <meta name="description" content="ORAL & MAXILLOFACIAL SURGERY">
-  <meta name="author" content="Piotr Pirog">
+    <title>OMFS</title>
+    <meta name="description" content="ORAL & MAXILLOFACIAL SURGERY">
+    <meta name="author" content="Piotr Pirog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,77 +24,87 @@
             <div class="logo">
                 <a href="#">
                     <img src='imgs/logo.jpg' alt="logo">
-                    <h1 class="logo__title">ORAL <span class="logo__other-color" >&</span></br>MAXILLOFACIAL</br>SURGEONS</h1>
-                </a> 
-             </div>
+                    <h1 class="logo__title">ORAL <span class="logo__other-color">&</span><br>MAXILLOFACIAL<br>SURGEONS
+                    </h1>
+                </a>
+            </div>
             <ul class="social">
-                <li><a class="social__icon social__icon--fb" href="#"><img src="imgs/icons/fb.svg" /></a></li>
-                <li><a class="social__icon social__icon--google" href="#"><img src="imgs/icons/google.svg" /></a></li>
-                <li><a class="social__icon social__icon--twitter" href="#"><img src="imgs/icons/twitter.svg" /></a></li>
+                <li><a class="social__icon social__icon--fb" href="#"><img src="imgs/icons/fb.svg" alt="social"/></a></li>
+                <li><a class="social__icon social__icon--google" href="#"><img src="imgs/icons/google.svg" alt="social"/></a></li>
+                <li><a class="social__icon social__icon--twitter" href="#"><img src="imgs/icons/twitter.svg" alt="social"/></a></li>
             </ul>
         </div>
         <nav>
             <div class="home">
-                <a href="#" ><img src="imgs/icons/home.svg" alt="home"/></a>
+                <a href="#"><img src="imgs/icons/home.svg" alt="home" /></a>
+            </div>
+            <div class="hamburger hamburger--squeeze js-hamburger">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
             </div>
             <ul>
-                <li><a href="#">OFMS HOME</a></li>
-                <li><a href="#">OUR SURGEONS</a></li>
-                <li><a href="#">PATIENT INFORMATION</a></li>
-                <li><a href="#">ORAL & MAXILLOFACIAL SURGERY</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><span>OFMS HOME</span></a></li>
+                <li><a href="#"><span>OUR SURGEONS</span></a></li>
+                <li><a href="#"><span>PATIENT INFORMATION</span></a></li>
+                <li><a href="#"><span>ORAL & MAXILLOFACIAL SURGERY</span></a></li>
+                <li><a href="#"><span>CONTACT</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="slider" id="slider"> 
+        <section class="slider" id="slider">
             <div class="slider__wrapper">
-                <div class="slider__wrapper__el is-active" style="background: url(imgs/slider/first.jpg) center center no-repeat; background-size: cover;">
+                <div class="slider__wrapper__el is-active"
+                    style="background: url(imgs/slider/first.jpg) center center no-repeat; background-size: cover;">
                     <div class="slider__wrapper__el__desc-con">
                         <h2>Dental Implants</h2>
-                        <p>People with missing teeth may benefit from 
-                            techniques that allow artificial teeth to be 
+                        <p>People with missing teeth may benefit from
+                            techniques that allow artificial teeth to be
                             secured firmly in the mouth.
                         </p>
                         <div class="full-width-con">
                             <a class="btn-with-icon" href="#">
                                 <span class="btn-with-icon__text">MORE INFORMATION</span>
                                 <span class="btn-with-icon__icon">
-                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right"/>
+                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right" />
+                                </span>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__wrapper__el"
+                    style="background: url(imgs/slider/second.jpg) center center no-repeat; background-size: cover;">
+                    <div class="slider__wrapper__el__desc-con">
+                        <h2>Dental Implants</h2>
+                        <p>People with missing teeth may benefit from
+                            techniques that allow artificial teeth to be
+                            secured firmly in the mouth.
+                        </p>
+                        <div class="full-width-con">
+                            <a class="btn-with-icon" href="#">
+                                <span class="btn-with-icon__text">MORE INFORMATION</span>
+                                <span class="btn-with-icon__icon">
+                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right" />
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="slider__wrapper__el" style="background: url(imgs/slider/second.jpg) center center no-repeat; background-size: cover;">
+                <div class="slider__wrapper__el"
+                    style="background: url(imgs/slider/third.jpg) center center no-repeat; background-size: cover;">
                     <div class="slider__wrapper__el__desc-con">
                         <h2>Dental Implants</h2>
-                        <p>People with missing teeth may benefit from 
-                            techniques that allow artificial teeth to be 
+                        <p>People with missing teeth may benefit from
+                            techniques that allow artificial teeth to be
                             secured firmly in the mouth.
                         </p>
                         <div class="full-width-con">
                             <a class="btn-with-icon" href="#">
                                 <span class="btn-with-icon__text">MORE INFORMATION</span>
                                 <span class="btn-with-icon__icon">
-                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right"/>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider__wrapper__el" style="background: url(imgs/slider/third.jpg) center center no-repeat; background-size: cover;">
-                    <div class="slider__wrapper__el__desc-con">
-                        <h2>Dental Implants</h2>
-                        <p>People with missing teeth may benefit from 
-                            techniques that allow artificial teeth to be 
-                            secured firmly in the mouth.
-                        </p>
-                        <div class="full-width-con">
-                            <a class="btn-with-icon" href="#">
-                                <span class="btn-with-icon__text">MORE INFORMATION</span>
-                                <span class="btn-with-icon__icon">
-                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right"/>
+                                    <img src="imgs/icons/right_arrow.svg" alt="arrow-right" />
                                 </span>
                             </a>
                         </div>
@@ -106,35 +120,41 @@
         <section class="about">
             <div class="about__info">
                 <article>
-                <h2>Welcome</h2>
-                <p>Oral and Maxillofacial Surgery is a highly specialised field of both dentistry and medicine which requires 
-                    at least 4 years of post-graduate study and practical experience. At <b>OMFS Services Pty Ltd “OMFS”</b> our 
-                    surgeons are recognised as some of the best in their field, with associations and affiliations to the 
-                    leading teaching hospitals in the country. Our surgeons are trained to diagnose and treat a wide 
-                    spectrum of oral diseases, trauma and conditions.
-                </p>
-                <br>
-                <p>Our practice, located in the heart of Melbourne’s Medical District at 766 Elizabeth Street, caters for every 
-                    facet of Oral and Maxillofacial Surgery. Our patients can rest assured that our knowledge and skills are 
-                    beyond question and we are equipped to meet all oral surgery needs from the most complicated to 
-                    relatively simple cases. No matter what the diagnosis our patients are treated with respect and dignity.
-                </p>
-                <br>
-                <p>Our services include consultations and second opinions, medico-legal reporting, local anaesthetic 
-                    procedures in an office environment and general anaesthetic procedures in various hospitals 
-                    throughout Melbourne and regional Victoria.
-                </p>
-               </article>
+                    <h2>Welcome</h2>
+                    <p>Oral and Maxillofacial Surgery is a highly specialised field of both dentistry and medicine which
+                        requires
+                        at least 4 years of post-graduate study and practical experience. At <b>OMFS Services Pty Ltd
+                            “OMFS”</b> our
+                        surgeons are recognised as some of the best in their field, with associations and affiliations
+                        to the
+                        leading teaching hospitals in the country. Our surgeons are trained to diagnose and treat a wide
+                        spectrum of oral diseases, trauma and conditions.
+                    </p>
+                    <br>
+                    <p>Our practice, located in the heart of Melbourne’s Medical District at 766 Elizabeth Street,
+                        caters for every
+                        facet of Oral and Maxillofacial Surgery. Our patients can rest assured that our knowledge and
+                        skills are
+                        beyond question and we are equipped to meet all oral surgery needs from the most complicated to
+                        relatively simple cases. No matter what the diagnosis our patients are treated with respect and
+                        dignity.
+                    </p>
+                    <br>
+                    <p>Our services include consultations and second opinions, medico-legal reporting, local anaesthetic
+                        procedures in an office environment and general anaesthetic procedures in various hospitals
+                        throughout Melbourne and regional Victoria.
+                    </p>
+                </article>
             </div>
             <section class="about__contact">
                 <div class="about__contact__header">
-                    <span>Contact information</span>
+                    <h2>Contact information</h2>
                 </div>
                 <div class="about__contact-info">
                     <div class="about__contact-info__el">
                         <div class="small-text">TELEPHONE US</div>
                         <div class="main-text">
-                            <a href="tel:61 3 9347 3788">61 3 9347 3788</a>
+                            <a href="tel:61393473788">61 3 9347 3788</a>
                         </div>
                     </div>
                     <div class="about__contact-info__el">
@@ -144,7 +164,7 @@
                     <div class="about__contact-info__el">
                         <div class="small-text">CONSULTING LOCATIONS</div>
                         <div class="main-text">List of locations</div>
-                    </div> 
+                    </div>
                     <div class="about__contact-info__el">
                         <div class="small-text">OPERATING LOCATIONS</div>
                         <div class="main-text">List of locations</div>
@@ -157,38 +177,42 @@
             <div class="articles__wrapper">
                 <div class=articles__el>
                     <h2>Dentoalveolar Surgery</h2>
-                    <img class="articles__el__img" src="imgs/teeth.jpg" alt="teeth" />
-                    <p>Alveolar bone is the bone that surrounds and supports the teeth. 
-                        There are a variety of problems with teeth, gums, jawbones 
-                        and other soft or bony tissue that may require treatment by an 
-                        oral and maxillofacial surgeon. This type of surgery should only 
-                        be undertaken after careful consideration and discussion 
+                    <a href="#">
+                        <img class="articles__el__img" src="imgs/teeth.jpg" alt="teeth" />
+                    </a>
+                    <p>Alveolar bone is the bone that surrounds and supports the teeth.
+                        There are a variety of problems with teeth, gums, jawbones
+                        and other soft or bony tissue that may require treatment by an
+                        oral and maxillofacial surgeon. This type of surgery should only
+                        be undertaken after careful consideration and discussion
                         with your surgeon.
                     </p>
                     <div class="full-width-con">
                         <a class="btn-with-icon" href="#">
                             <span class="btn-with-icon__text">MORE INFORMATION</span>
                             <span class="btn-with-icon__icon">
-                                <img src="imgs/icons/right_arrow.svg" alt="arrow-right"/>
+                                <img src="imgs/icons/right_arrow.svg" alt="arrow-right" />
                             </span>
                         </a>
                     </div>
                 </div>
                 <div class=articles__el>
                     <h2>Orthognathic (Corrective Jaw) Surgery</h2>
-                    <img class="articles__el__img" src="imgs/teeth.jpg" alt="teeth" />
-                    <p>Orthognathic means straight jaws. Orthognathic surgery is needed when 
-                        jaws don’t meet correctly and/or teeth don’t seem to fit with jaws. 
-                        Teeth are straightened with orthodontics and corrective jaw surgery 
-                        repositions misaligned jaws. This not only improves facial appearance, 
-                        but also ensures that teeth meet correctly and function properly; 
+                    <a href="#" >
+                        <img class="articles__el__img" src="imgs/teeth.jpg" alt="teeth" />
+                    </a>
+                    <p>Orthognathic means straight jaws. Orthognathic surgery is needed when
+                        jaws don’t meet correctly and/or teeth don’t seem to fit with jaws.
+                        Teeth are straightened with orthodontics and corrective jaw surgery
+                        repositions misaligned jaws. This not only improves facial appearance,
+                        but also ensures that teeth meet correctly and function properly;
                         hence improving a person’s ability to chew and speak.
                     </p>
                     <div class="full-width-con">
                         <a class="btn-with-icon" href="#">
                             <span class="btn-with-icon__text">MORE INFORMATION</span>
                             <span class="btn-with-icon__icon">
-                                <img src="imgs/icons/right_arrow.svg" alt="arrow-right"/>
+                                <img src="imgs/icons/right_arrow.svg" alt="arrow-right" />
                             </span>
                         </a>
                     </div>
@@ -196,13 +220,144 @@
             </div>
             <hr>
         </section>
+        <section class="surgeons">
+            <h2>Our surgeons</h2>
+            <div class="surgeons__con">
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/1.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr David Wiesenfeld</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/2.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr Stephen Gibbons</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/3.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr Timothy Probert</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/4.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr Kevin Spencer</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/5.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr Alf Nastri</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+                <div class="surgeons__con__el">
+                    <a class="rel" href="#">
+                        <img src="imgs/surgeons/6.jpg" alt="person" class="surgeons__con__el__img" />
+                        <div class="surgeons__con__el__hidden-info">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged.</p>
+                        </div>
+                    </a>
+                    <div class="surgeons__con__el__info">
+                        <h3>Mr Timothy Wong</h3>
+                        <a href="#">Read more </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-  <script src="main.js"></script>
-  <script src="js/slider.js"></script>
-  <script>
-      $(document).ready(function(){
+    <footer>
+        <div class="footer-con">
+            <div class="footer-con__left">
+                <ul>
+                    <li><a href="#">OFMS HOME</a></li>
+                    <li><a href="#">OUR SURGEONS</a></li>
+                    <li><a href="#">PATIENT INFORMATION</a></li>
+                    <li><a href="#">ORAL & MAXILLOFACIAL SURGERY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-con__right">
+                <div class="logo logo--footer">
+                    <a href="#">
+                        <img src='imgs/logo.jpg' alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-con__foot">
+            <p>COMCOPYRIGHT © 2017 OMFS SERVICES PTY LTD.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        $(document).ready(function () {
             $('#slider').slider();
-      });
-  </script>
+        });
+    </script>
 </body>
+
 </html>
